@@ -6,7 +6,7 @@ int main() {
     if(num & 1u << 31) {
         printf("Set");
     } else{
-        printf("Set");
+        printf("Not Set");
     }
     return 0;
 }
