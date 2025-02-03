@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    if(num & 1u<<31) {
+    int num;
+    scanf("%d", &num);
+    if(num & 0*800000000) {
         printf("Set");
     } else{
         printf("Not Set");
