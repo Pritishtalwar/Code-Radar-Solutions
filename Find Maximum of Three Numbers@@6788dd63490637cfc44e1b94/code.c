@@ -12,8 +12,8 @@ int main() {
     if(c>b && c>a){
         printf("%d", c);
     }
-    // else{
-    //     printf("equal");
-    // }
+    else if(a=b=c){
+        printf("equal");
+    }
     return 0;
 }
