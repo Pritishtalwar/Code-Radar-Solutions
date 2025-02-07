@@ -2,7 +2,7 @@
 #include<ctype.h>
 
 int main() {
-    char ch
+    char ch;
     scanf(" %c", &ch);
     if(isalpha(ch)) {
         char lower_ch =tolower(ch);
