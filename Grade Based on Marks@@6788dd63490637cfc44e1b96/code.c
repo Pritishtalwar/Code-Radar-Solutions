@@ -2,16 +2,17 @@
 
 int main() {
     int num;
+    scanf("%d", &num);
     if(num>=90){
         printf("A");
     } else if(num>=80 && num <90){
-        printf("B")
+        printf("B");
     } else if(num>=70 && num <80){
-        printf("C")
+        printf("C");
     } else if(num>=60 && num <70){
-        printf("D")
+        printf("D");
     } else if(num<60){
-        printf("F")
+        printf("F");
     }
     
     return 0;
