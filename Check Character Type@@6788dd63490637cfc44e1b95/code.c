@@ -3,7 +3,7 @@
 
 int main() {
     char ch
-    scanf("%c", &ch);
+    scanf(" %c", &ch);
     if(isalpha()) {
         char lower_ch =tolower(ch);
         if (lower_ch =='a' || lower_ch =='e' || lower_ch =='i' || lower_ch == 'o' || lower_ch =='u') {
