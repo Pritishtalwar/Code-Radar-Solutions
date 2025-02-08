@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &day);
 
     switch(day);
-    case: '1'{
+    case '1'{
         printf("Monday\n");
     }
     return 0;
