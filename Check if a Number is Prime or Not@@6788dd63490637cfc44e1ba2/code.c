@@ -8,9 +8,9 @@ int main(){
     if(n<=1){
         prime=0;
     }else{
-        for(i=2;i<=sqrt(n);i++){
-            if(n%i==0){
-                prime=0 ;
+        for(i=2; i<=sqrt(n) ; i++){
+            if (n % i == 0){
+                prime = 0;
                 break;
             }
         }
