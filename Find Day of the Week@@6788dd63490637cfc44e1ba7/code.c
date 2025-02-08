@@ -6,9 +6,8 @@ int main() {
 
     switch(day){
 
-    case '1'{
-        printf("Monday\n");
-    }
+    case '1': printf("Monday\n");
+    
     }
     return 0;
 }
