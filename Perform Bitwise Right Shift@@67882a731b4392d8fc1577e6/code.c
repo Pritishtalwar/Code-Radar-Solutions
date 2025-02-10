@@ -2,9 +2,9 @@
 
 int main() {
     int number, positions;
-
     scanf("%d %d", &number, &positions);
-    int result = (num>>positions);
+
+    int result = (number>>positions);
     printf("%d\n", result);
     return 0;
 }
