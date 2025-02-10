@@ -5,6 +5,6 @@ int main() {
 
     scanf("%d %d", &number, &positions);
 
-    printf("%d\n", num >> positions);
+    printf("%d\n", int(num>>positions));
     return 0;
 }
