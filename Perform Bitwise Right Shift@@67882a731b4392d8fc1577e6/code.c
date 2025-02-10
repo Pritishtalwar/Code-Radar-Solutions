@@ -4,7 +4,7 @@ int main() {
     int number, positions;
 
     scanf("%d %d", &number, &positions);
-
-    printf("%d\n", int(num>>positions));
+    int result = (num>>positions);
+    printf("%d\n", result);
     return 0;
 }
