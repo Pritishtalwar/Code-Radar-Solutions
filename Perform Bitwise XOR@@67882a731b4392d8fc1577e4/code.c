@@ -1,9 +1,8 @@
-
 #include <stdio.h>
 
 int main(){
     int a, b;
-    printf("Enter: ");
+    // printf("Enter: ");
     scanf("%d %d", &a, &b);
     int result = a^b;
     printf("%d\n", result);
