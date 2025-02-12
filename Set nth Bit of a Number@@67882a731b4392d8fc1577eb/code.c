@@ -3,6 +3,7 @@
 int main(){
     int a, b;
     scanf("%d %d", &a, &b);
-    printf("%d\n", a|(1<<n));
+    int result = a | (1 << n);
+    printf("%d\n", result);
     return 0;
 }
