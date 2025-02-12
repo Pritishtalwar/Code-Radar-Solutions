@@ -6,7 +6,7 @@ int main() {
     int result = a^b;
     printf("d\n", result);
     return 0;
-// }
+}
 
 // #include <stdio.h>
 
