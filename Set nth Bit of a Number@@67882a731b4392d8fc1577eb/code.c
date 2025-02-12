@@ -1,4 +1,3 @@
-// Your code here...cv\
 #include<stdio.h>
 int main(){
     int num, n;
