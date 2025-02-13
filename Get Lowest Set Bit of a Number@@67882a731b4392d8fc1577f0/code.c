@@ -1,11 +1,9 @@
-
-
 #include<stdio.h>
 
 int main() {
-    int num;
+    int num, position;
     scanf("%d", &num);
-    for(int position=0; (num & 1) == 0; position++){
+    for(position = 0; (num & 1) == 0; position++){
         num >>= 1;
     }
     printf("%d\n",position);
