@@ -3,11 +3,11 @@
 #include<stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    for(int i=0; (n&1) == 0; i++){
-        n>>=1;
+    int num;
+    scanf("%d", &num);
+    for(int position=0; (num & 1) == 0; position++){
+        num >>= 1;
     }
-    printf("%d\n",i);
+    printf("%d\n",position);
     return 0;
 }
