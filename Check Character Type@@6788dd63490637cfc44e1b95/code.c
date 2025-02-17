@@ -1,24 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
 #include<ctype.h>
 
-int main() {
+int main(){
     char ch;
-    scanf(" %c", &ch);
-    if(isalpha(ch)) {
-        char lower_ch =tolower(ch);
-        if (lower_ch =='a' || lower_ch =='e' || lower_ch =='i' || lower_ch == 'o' || lower_ch =='u') {
-            printf("Vowel");
+    scanf("%c",&ch);
+
+    if(isdigit(ch)) {
+        printf("Digit\n");
+    } else if(isalpha(ch)) {
+        char lower = tolower(ch);
+
+        if (lower =='o'||lower =='a'||lower =='e'||lower =='i'||lower =='u'){
+            printf("Vowel\n");
         } else {
-            printf("Consonant");
+            printf("Consonant\n");
         }
-    }
-
-    else if (isdigit(ch)) {
-        printf("Digit");
-    }
-
-    else {
-        printf("Special Character");
-    }
+        else{
+            printf("Special Character");
+        }
     return 0;
+    }
 }
