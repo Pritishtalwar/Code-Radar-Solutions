@@ -5,8 +5,8 @@ int main() {
     scanf("%d", &x);
 
     switch (x){
-        case '1'{
+        case 1:
             printf("Monday");
-        }
+        
     }
 }
