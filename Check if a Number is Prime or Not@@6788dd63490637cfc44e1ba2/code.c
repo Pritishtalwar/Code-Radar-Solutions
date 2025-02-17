@@ -4,14 +4,17 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    for(int i=2; i<= n-1; i++){
+    int check = 1;
+    for(int i=2;i<=n/2;i++){
         if(n%i == 0){
-            printf("Not Prime");
-            break;
-        } else{
-            printf("Not Prime");
+            check = 0;
             break;
         }
+    if(check==1){
+        printf("Prime");
+    }else if(check == 0){
+        printf("Not Prime");
+    }    
     }
     return 0;
 }
