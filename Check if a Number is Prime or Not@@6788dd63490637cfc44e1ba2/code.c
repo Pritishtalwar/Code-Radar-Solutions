@@ -1,30 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main() {
-    int n, i, prime = 1;
-    
-    // Input: Read a single integer
+    int n;
     scanf("%d", &n);
-    
-    // A number less than or equal to 1 is not prime
-    if (n <= 1) {
-        prime = 0;
-    } else {
-        // Check divisors from 2 to √n (or up to n/2 for simplicity)
-        for (i = 2; i * i <= n; i++) {
-            if (n % i == 0) {
-                prime = 0;
-                break;
-            }
+
+    for(int i=2; i<= n/2; i++){
+        if(n%i == 0){
+            printf("Not Prime");
+        } else{
+            printf("Prime");
         }
     }
-
-    // Output based on the result
-    if (prime) {
-        printf("Prime\n");
-    } else {
-        printf("Not Prime\n");
-    }
-    
     return 0;
 }
