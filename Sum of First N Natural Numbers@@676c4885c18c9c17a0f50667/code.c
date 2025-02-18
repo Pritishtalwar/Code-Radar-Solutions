@@ -8,6 +8,7 @@ int main(){
         int ld=x%10;
         sum = sum+ld;
         x=x/10;
-        return 0;
     }
+    printf("%d", sum);
+        return 0;
 }
