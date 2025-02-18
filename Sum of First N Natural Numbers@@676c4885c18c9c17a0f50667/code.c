@@ -6,7 +6,7 @@ int main(){
     int sum =0;
     for(;x!=0;){
         int ld=x%10;
-        sum = sum+ld;
+        sum = sum+ld*10;
         x=x/10;
     }
     printf("%d", sum);
