@@ -4,5 +4,8 @@ void fibonacciSeries(int n){
     for(int i =3;i<=n;i++){
         c=a+b;
         printf("%d\n", c);
+        a=b;
+        b=c;
     }
+    printf("\n");
 }
