@@ -1,5 +1,5 @@
 // Your code here...
-void bubbleSort(int arr[n],int n){
+void bubbleSort(int arr[],int n){
     int i;   
     if(arr[i] > arr[i+1]){
         int temp = arr[i];
@@ -7,7 +7,7 @@ void bubbleSort(int arr[n],int n){
         arr[i+1]=temp; 
     }
 }
-void printArray(int arr[n],int n){
+void printArray(int arr[],int n){
     int i;
     for(i=0;i<n;i++){
         printf("%d ", arr[i]);
