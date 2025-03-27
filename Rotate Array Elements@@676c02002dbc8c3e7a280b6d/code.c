@@ -10,7 +10,7 @@ int main(){
     scanf("%d", &arr[i]);
     }
     
-    scanf("%d", &k);
+    scanf("%d", &K);
     
     k=k%N;
     
