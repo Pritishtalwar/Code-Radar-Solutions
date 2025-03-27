@@ -12,7 +12,7 @@ int main(){
     
     scanf("%d", &K);
     
-    k=k%N;
+    K=k%N;
     
     int temp[N];
     
