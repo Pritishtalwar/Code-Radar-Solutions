@@ -11,8 +11,8 @@ int main(){
     scanf("%d", &k);
     k=k%N;
     int temp[N];
-    for(int i=0;i<K;i++) {
-        temp[i] = arr[N - K = i];
+    for(int i=0; i < K; i++) {
+        temp[i] = arr[N - K + i];
     }
 
     for(int i=0;i<N-K;i++){
