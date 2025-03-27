@@ -13,7 +13,7 @@ int main() {
         } else if(i%2!=0){
             o++;
         }
-        printf("%d %d\n", e, o);
     }
+        printf("%d %d\n", e, o);
     return 0;
 }
