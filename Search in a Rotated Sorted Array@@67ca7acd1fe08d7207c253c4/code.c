@@ -4,6 +4,9 @@ int searchInRotatedArray(int arr[],int n,int k){
         if(arr[i] = k){
             printf("%d", i);
             break;
+        } else
+        {
+            return -1;
         }
     }
 }
