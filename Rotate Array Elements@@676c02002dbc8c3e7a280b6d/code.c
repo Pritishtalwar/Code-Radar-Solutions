@@ -25,7 +25,7 @@ int main(){
         temp[K+i] = arr[i];
     }
     for(int i=0;i<N;i++){
-        printf("%d ", temp[i]);
+        printf("%d\n", temp[i]);
     }
     return 0;
 }
