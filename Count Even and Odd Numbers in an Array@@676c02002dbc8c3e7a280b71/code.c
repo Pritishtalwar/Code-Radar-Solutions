@@ -14,6 +14,6 @@ int main() {
             o++;
         }
     }
-        printf("%d %d\n", e, o);
+    printf("%d %d\n", e, o);
     return 0;
 }
