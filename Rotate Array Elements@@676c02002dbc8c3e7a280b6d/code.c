@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+
 int main(){
     int N,K;
     scanf("%d", &N);
@@ -12,11 +13,11 @@ int main(){
     
     scanf("%d", &K);
     
-    K=k%N;
+    K = K % N;
     
     int temp[N];
     
-    for(int i=0; i < N-K; i++) {
+    for(int i=0; i < K; i++) {
         temp[i] = arr[N - K + i];
     }
 
