@@ -6,12 +6,12 @@ int main() {
     for(int i=0;i<N;i++){
         scanf("%d", &N);
     }
-    int sum=0, dif=0;
+    int o=0, e=0;
     for(int i=0;i<N;i++){
         if(i%2 == 0){
-            sum++;
+            e++;
         } else if(i%2!=0){
-            dif++;
+            o++;
         }
         printf("%d %d\n", sum, dif);
     }
