@@ -8,9 +8,9 @@ int main() {
     }
     int o=0, e=0;
     for(int i=0;i<N;i++){
-        if(i%2 == 0){
+        if(arr[i]%2 == 0){
             e++;
-        } else if(i%2!=0){
+        } else if(arr[i]%2!=0){
             o++;
         }
     }
