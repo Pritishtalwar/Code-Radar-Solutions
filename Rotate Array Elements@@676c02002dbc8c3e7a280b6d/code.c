@@ -22,7 +22,7 @@ int main(){
     }
 
     for(int i=0;i<N-K;i++){
-        temp[k+i] = arr[i];
+        temp[K+i] = arr[i];
     }
     for(int i=0;i<N;i++){
         printf("%d ", temp[i]);
