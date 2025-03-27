@@ -7,15 +7,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
-    int max=arr[0], min=arr[0];
+    int max=arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]>max){
             max=arr[i];
-        } else if(arr[i]<min){
+            printf("%d ", max);
+        } else if(arr[i]<max){
             min = arr[i];
-            
+            printf("%d ", max);
         }
-        printf("%d %d", max, min);
-
+        return 0;
     }
 }
