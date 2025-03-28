@@ -4,7 +4,6 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    int max = arr[0];
     if(n<2){
         printf("-1\n");
         return 0;
