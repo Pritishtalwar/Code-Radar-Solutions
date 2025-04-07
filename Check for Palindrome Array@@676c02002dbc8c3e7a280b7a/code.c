@@ -6,12 +6,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
-    int paindrome=1;
+    int palindrome=1;
     for(int i=0;i<n;i++){
         if(arr[i] != arr[n-i-1]){
             palindrome = 0;
         }
-        if(ispalindrom){
+        if(palindrome){
             printf("YES");
         }else{
             printf("NO")
