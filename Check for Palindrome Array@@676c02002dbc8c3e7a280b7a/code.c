@@ -12,10 +12,12 @@ int main(){
             palindrome = 0;
             break;
         }
+    }
         if(palindrome){
             printf("YES");
         }else{
             printf("NO");
         }
-    }
+    
+    return 0;
 }
