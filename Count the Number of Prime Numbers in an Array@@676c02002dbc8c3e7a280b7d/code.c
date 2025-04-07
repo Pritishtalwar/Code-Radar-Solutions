@@ -9,7 +9,7 @@ int main() {
     }
     int count=0;
     for(int i=2;i*i<=n;i++){
-        if(i%2!=0){
+        if(n%i==0){
         
         }
         else{
