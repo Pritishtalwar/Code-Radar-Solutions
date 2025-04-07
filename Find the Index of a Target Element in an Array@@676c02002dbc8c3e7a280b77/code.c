@@ -11,6 +11,7 @@ int main(){
     scanf("%d", &target);
     for(int i=0;i<n;i++){
         if(arr[i]==target){
+            target = arr[i];
             printf("%d",i);
             break;
         }else{
