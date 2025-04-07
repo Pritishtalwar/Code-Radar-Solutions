@@ -1,23 +1,32 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5}; // Example array
-    int n = sizeof(arr) / sizeof(arr[0]); // Calculate array size
-    int target = 3; // Target to find
-    int index = -1; // Initialize index to -1 (default when target isn't found)
+    int n, target;
+    
+    // Read the size of the array
+    scanf("%d", &n);
+    int arr[n];
 
+    // Read the array elements
+    for(int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Read the target element
+    scanf("%d", &target);
+
+    int index = -1; // Default index if target is not found
+
+    // Iterate through the array to find the target
     for(int i = 0; i < n; i++) {
         if(arr[i] == target) {
-            index = i; // Store the index if target is found
-            break; // Exit the loop as soon as we find the target
+            index = i; // Store the index when the target is found
+            break; // Exit the loop once the first occurrence is found
         }
     }
 
-    if(index != -1) {
-        printf("First occurrence of %d is at index %d\n", target, index);
-    } else {
-        printf("%d is not found in the array\n", target);
-    }
-
+    // Print the result
+    printf("%d\n", index);
+    
     return 0;
 }
