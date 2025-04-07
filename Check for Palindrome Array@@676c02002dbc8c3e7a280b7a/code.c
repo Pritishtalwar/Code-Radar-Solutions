@@ -14,7 +14,7 @@ int main(){
         if(palindrome){
             printf("YES");
         }else{
-            printf("NO")
+            printf("NO");
         }
     }
 }
