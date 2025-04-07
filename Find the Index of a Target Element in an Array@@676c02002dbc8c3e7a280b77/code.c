@@ -9,7 +9,7 @@ int main(){
     }
     int n=sizeof(arr)/sizeof(arr[0]);
     int t;
-    int index = -;
+    int index = -1;
     scanf("%d", &t);
     for(int i=0;i<n;i++){
         if(arr[i]==t){
