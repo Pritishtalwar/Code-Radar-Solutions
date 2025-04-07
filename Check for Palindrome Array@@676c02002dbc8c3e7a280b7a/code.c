@@ -14,8 +14,8 @@ int main(){
     int original=sum;
     int rem=0;
     int rev=0;
-    for(int i=sum;i!=0;i/=10){
-        rem = i%10;
+    for(int j=sum;j!=0;j/=10){
+        rem = j%10;
         rev= rev*10 + rem;
     }
     if(original == rev){
