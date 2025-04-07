@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<N;i++){
     scanf("%d", &arr[N]);
     }
-    int n=sizeof(arr)/sizeof(Arr[0]);
+    int n=sizeof(arr)/sizeof(arr[0]);
     int t;
     int index = -;
     scanf("%d", &t);
