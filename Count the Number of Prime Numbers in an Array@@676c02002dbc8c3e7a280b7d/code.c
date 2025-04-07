@@ -8,14 +8,25 @@ int main() {
         scanf("%d ", &arr[i]);
     }
     int count=0;
-    for(int i=2;i*i<=n;i++){
-        if(n % i==0){
-        return 1;
+    for(int i=0;i<n;i++){
+        int num = arr[i];
+        int isp=1;
+
+        if(num < 2) {
+            isp = 0;
+        } else {
+            for(int j=2;j*j<=num;j++){
+                if(num%i == 0) {
+                    isp=0;
+                    break;
+                }
+            }        
         }
-        else{
+        if(isp) {
             count++;
         }
-        
     }
+
     printf("%d", count);
+    return 0;
 }
