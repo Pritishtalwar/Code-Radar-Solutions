@@ -17,7 +17,7 @@ int main(){
             break;
         }
         }
-        if(index!=-){
+        if(index!=-1){
             printf("-1");
             break;
         
