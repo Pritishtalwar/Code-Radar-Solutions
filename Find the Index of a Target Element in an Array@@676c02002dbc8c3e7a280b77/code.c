@@ -7,16 +7,20 @@ int main(){
     for(int i=0;i<N;i++){
     scanf("%d", &arr[N]);
     }
-    int T;
-    scanf("%d", &T);
-    for(int i=0;i<N;i++){
-        if(arr[i]==T){
-            printf("%d",i);
-            break;
-        }else if(arr[i]!=T){
-            printf("-1");
+    inr n=sizeof(arr)/sizeof(Arr[0]);
+    int t;
+    int index = -;
+    scanf("%d", &t);
+    for(int i=0;i<n;i++){
+        if(arr[i]==t){
+            index = i;
             break;
         }
+        }
+        if(index!=-){
+            printf("-1");
+            break;
+        
     }
     return 0;
 }
