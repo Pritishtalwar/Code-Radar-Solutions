@@ -18,5 +18,8 @@ int main(){
     for(int i=index;i<n;i++){
         arr[i]=0;
     }
+    for(int = 0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
     return 0;    
 }
