@@ -10,9 +10,9 @@ int main() {
     int count=0;
     for(int i=0;i<n;i++){
         count++;
-        break;
         if(count>1){
             printf("%d", arr[i]);
+            break;  
         }
     }
 }
