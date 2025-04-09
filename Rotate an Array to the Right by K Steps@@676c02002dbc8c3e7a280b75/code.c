@@ -18,6 +18,5 @@ int main(){
         printf("%d ",temp[i]);
     }
     printf("\n");
-
-
+    return 0;
 }
