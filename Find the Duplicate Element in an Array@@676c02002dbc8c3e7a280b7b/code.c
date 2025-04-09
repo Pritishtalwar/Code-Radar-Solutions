@@ -7,12 +7,13 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
-    int count=0;
-    for(int i=0;i<n;i++){
-        count++;
-        if(count>1){
-            printf("%d", arr[i]);
-            break;  
-        }
+    for(int i=0;i<n-1;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[i] == arr[j]) {
+                printf("%d", arr[i]);
+                return 0;
+            }
+        }        
     }
+    return 0;
 }
