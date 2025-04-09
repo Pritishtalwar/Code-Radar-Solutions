@@ -12,7 +12,7 @@ int main(){
     k=k%n;
     int temp[n];
     for(int i=0;i<n;i++){
-        temp[(i+k) % n] =ar[i];
+        temp[(i+k) % n] =arr[i];
     }
     for(int i=0;i<n;i++){
         printf("%d ",temp[i]);
